@@ -1,4 +1,4 @@
-#Hello World - A PHP Unix Extension
+# Hello World - A PHP Unix Extension
 
 How to compile and test:
 
