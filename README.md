@@ -3,6 +3,7 @@
 How to compile and test:
 
 * phpize
+* `./configure --with-php-config=/usr/local/bin/php-config`
 * make
 * make install
 * `php -d extension=hello.so -r 'hello();'`
