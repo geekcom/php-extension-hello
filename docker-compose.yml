@@ -1,0 +1,8 @@
+version: '3'
+services:
+  app:
+    build: .docker
+    container_name: php74
+    volumes:
+      - .:/var/www/app
+    tty: true
