@@ -18,3 +18,4 @@
 /build/
 /include/
 /modules/
+config.h.in~
