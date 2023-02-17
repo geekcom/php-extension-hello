@@ -1,4 +1,4 @@
-FROM php:7.4
+FROM php:82
 
 LABEL maintainer="geekcom"
 
