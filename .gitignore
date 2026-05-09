@@ -19,3 +19,6 @@
 /include/
 /modules/
 config.h.in~
+/tests
+*.dep
+configure~

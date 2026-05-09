@@ -17,8 +17,11 @@
 #include <php.h>
 #include "hello.h"
 
+ZEND_BEGIN_ARG_WITH_RETURN_TYPE_INFO_EX(arginfo_hello, 0, 0, IS_VOID, 0)
+ZEND_END_ARG_INFO()
+
 zend_function_entry hello_functions[] = {
-        PHP_FE(hello, NULL)
+        PHP_FE(hello, arginfo_hello)
         { NULL, NULL, NULL }
 };
 
